@@ -1,0 +1,214 @@
+body{
+	margin-left:-5px;
+	overflow-x:hidden;
+	width:665px;
+}
+
+.backimgone{
+    background: url(http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg);
+	height:360px;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:-200px 37px;
+	width:665px;
+}
+
+#head{
+	height:110px;
+	margin-top:40px;
+}
+
+#head ul {
+    list-style-type: none;
+    margin-left: 30px;
+    overflow: hidden;
+    background-color: #fff;	
+}
+
+#head ul li {
+    float: left;    
+}
+
+#head ul li a {
+    display: block;
+    color: #626971;
+    text-align: center;
+    margin-right:35px;
+	margin-top:-7px;
+	margin-left:20px;
+	padding:10px 10px; 
+    text-decoration: none; 
+	font-family:helvetica;
+	font-size:8.5px;
+	text-shadow:0.30px 0px #626971;
+} 
+
+hr{
+    margin-top: 32px;
+    margin-bottom:-10px;
+    padding-bottom: :-5px;
+    border-width: 0.5px;
+	color:#f2efed;
+	opacity:0.7;
+}
+
+#part2{
+	height:1250px;
+}	
+
+#part2 #outdoortable{
+	width:50%;
+	margin-top:80px;
+	float:left;
+}
+
+#part2 #outdoortable img{
+	float:right;
+	padding-right:10px;
+	width:250px;
+}
+
+#part2 #outdoortabletext{
+	width:45.2%;
+	float:right;
+	margin-top:-15px;
+}
+
+#part2 #closedlotus{
+	width:46.5%;
+	margin-top:55px;
+	float:right;
+}
+
+#part2 #closedlotus img{
+	width:250px;
+}
+
+#part2 #letuce{
+	width:50%;
+	float:left;
+	margin-top:30px;
+}
+
+#part2 #letuce img{
+	float:right;
+	padding-right:10px;
+	width:250px;
+}
+
+#part2 #brocoli{
+	width:46.5%;
+	float:right;
+	margin-top:30px;
+}
+
+#part2 #brocoli img{
+	width:250px;
+}
+
+#part2 #brocolitext{
+	width:auto;
+	float:left;
+	margin-top:50px;
+	padding-left: 80px;
+}
+
+#part2 #radishcut{
+	position: relative;
+	width:100%;
+	float:left;
+	margin-top:40px;
+	text-align:center;
+	margin-left:10px;
+}
+
+#part2 #radishcut img{
+	width:535px;
+}
+
+#textonradish{
+    position: absolute;
+    bottom: 40%;
+    margin-left:227px;
+    background-color:white;
+    color:white;
+    padding-left:40px;
+    padding-right:40px;
+	line-height:2px;
+	padding-bottom:10px;
+}
+
+#textonradish1{
+    margin-top:33px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 0.5px;
+	font-size: 6.9px;
+	word-spacing: 2px;
+    letter-spacing: 0.5px;		
+}
+
+#textonradish2{
+	margin-left:0px;
+	margin-top:-10px;
+	font-size:19px;
+    font-weight: lighter;
+	text-shadow: 0.4px 0.2px #676871;
+}
+
+#part2 #radishtext{
+	float:left;
+	width:100%;
+	margin-top:20px;	
+}
+
+#part2 #radishtext p{
+	text-align:center;
+}
+
+#part2 #radishtext #rad2{
+	margin-top:-20px;
+}
+
+.backimgtwo {
+	background: url(http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg);
+	height:280px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 660px 705px;
+    background-position:0 123px;
+ 
+}
+
+#footer{
+	height:150px;
+	margin-bottom:30px;
+	background-color: #BE9B57
+}
+
+#footetext{
+	float:right;
+	color:white;
+	margin-right:80px;
+	margin-top: 20px;
+}
+
+a.read1:hover{
+	color:#B0B1B0;
+}
+	
+a.read1{
+	color:black;
+	transition: 0.3s linear;
+}	
+
+a.read2:hover{
+	color:#B0B1B0;
+	cursor:pointer;
+	text-shadow:initial;
+}
+
+a.read2{
+	color:#676871;
+	transition: 0.3s linear;
+}
